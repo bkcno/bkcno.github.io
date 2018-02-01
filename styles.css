@@ -2,7 +2,7 @@
 
 body {
   font-family: Georgia, 'Times New Roman', Times, serif;
-  background-color: lightgray
+  background-color: lightgray;
 }
 
 ul {
@@ -10,7 +10,7 @@ ul {
   margin: 0;
   padding-left: 75px;
   overflow: hidden;
-  background-color: whitesmoke;
+  background-color: white;
 }
 
 li {
@@ -36,9 +36,10 @@ li a:hover:not(.active) {
 
 .active {
   color: white;
-  background-color: seagreen;
+  background-color: turquoise;
   text-decoration: none;
 }
+
 
 .box1 {
   height: 600px;
@@ -46,30 +47,68 @@ li a:hover:not(.active) {
   margin-left: 40px;
   padding: 20px;
   color: darkslategray;
-  background: whitesmoke;
+  background: white;
 }
 
 .box2 {
+  display: inline-block;
   height: 560px;
   margin-top: 40px; 
   margin-left: 10px;
+  padding: 10px;
+  color: darkslategray;
+  background: white;
+}
+
+.box3 {
+  height: 880px;
+  margin-top: 40px;
+  margin-left: 30px;
+  margin-right: 20px;
   padding: 20px;
   color: darkslategray;
-  background: whitesmoke;
+  background: white;
+}
+
+.box4 {
+  /* margin-top: 40px;
+  margin-left: 30px;
+  margin-right: 20px;
+  padding: 20px; */
+  color: darkslategray;
+  background: white;
 }
 
 hr { 
   display: block;
   margin-top: 2em;
-  margin-bottom: 4em;
+  margin-bottom: 3em;
   margin-left: auto;
   margin-right: auto;
   border-style: inset;
   border-width: 1.5px;
 } 
+ 
 
-h1 {font-size: 2.5em; font-weight: bold; color: seagreen; padding-left: 25px;}
-h2 {font-size: 2em; font-weight: bold; color: seagreen; padding-left: 25px;}
+h1 {font-size: 2.5em; font-weight: bold; color: turquoise; padding-left: 25px;}
+h2 {font-size: 2em; font-weight: bold; color: turquoise; padding-left: 25px;}
+h3 {font-weight: bold; color: turquoise; padding-left: 25px;}
+p1 {padding-left: 25px;}
+
+.member {
+  float: left;
+}
+
+.name {
+  font-weight: bold; color: turquoise; 
+  position: relative;
+
+}
+
+.member img {
+  width: 100%;
+  display: block;
+}
 
 #main_info,
 #out_temp {
@@ -91,18 +130,29 @@ h2 {font-size: 2em; font-weight: bold; color: seagreen; padding-left: 25px;}
   margin-right: 20px;
 }
 
-#output1 { width: 180px; height: 180px; margin-right: 5px; float:left;}
-#output2 { width: 180px; height: 180px; margin-right: 5px; float:right;}
-/* #output3 { width: 180px; height: 180px; margin-right: 10px; clear:left;} */
-/* #output4 { width: 180px; height: 180px; margin-right: 10px; clear:right;} */ 
+.output {
+  display: table;
+  float: left;
+}
 
 
-/* @media (max-width: 480px) {
-  .navbar li {
-    padding: 10px;
-  } */
+@media (max-width: 1224px) {
 
+  .box1 {
+    overflow-wrap: unset;
+    position: relative;
+    width: 100%;
+  }
+
+  .box2 { 
+    overflow-wrap: unset;
+    position: relative;
+    width: 100%;
+    margin-left: 40px;
+    height: 350px;
+  }
   .post {
-    margin-right: 30px;
-    margin-left: 30px;
-  } 
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 120px;
+  } }
