@@ -2,7 +2,7 @@
 
 ### Weather Data Analysis
 
-[![image](/imgs/clouds.png)](index.html)
+[![image](/imgs/clouds.png)](weatherindex.html)
 
 
 
