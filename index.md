@@ -7,7 +7,7 @@ Image here.
 
 ### Bike Share Analysis
 
-![image here](/images/outcome_Tableau_map.png)
+![image](/images/outcome_Tableau_map.png)
 
 
 
