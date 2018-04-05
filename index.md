@@ -4,15 +4,12 @@
 
 Image here. 
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+### Bike Share Analysis
 
-1. Numbered
-2. List
+![image here](/images/outcome_Tableau_map.png)
+
+
 
 **Bold** and _Italic_ and `Code` text
 
