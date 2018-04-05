@@ -33,7 +33,7 @@
         <script type="text/javascript">
           
           var movie = "Moon ET";
-          var queryURL = "http://api.giphy.com/v1/gifs/search?q=movies+" + movie + "&api_key=dc6zaTOxFJmzC";
+          var queryURL = "https://api.giphy.com/v1/gifs/search?q=movies+" + movie + "&api_key=dc6zaTOxFJmzC";
       
           d3.json(queryURL, function(error, response) {
             if (error) return console.warn(error);
