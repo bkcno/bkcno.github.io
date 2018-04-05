@@ -2,7 +2,7 @@
 
 ### Weather Data Analysis
 
-Image here. 
+![image](/imgs/clouds.png)
 
 
 ### Bike Share Analysis
