@@ -1,15 +1,8 @@
-## Data Viz Portfolio
+## Data Visualization Portfolio
 
-You can use the [editor on GitHub](https://github.com/bkcno/bkcno.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+### Weather Data Analysis
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
+Image here. 
 
 # Header 1
 ## Header 2
