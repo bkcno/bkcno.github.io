@@ -2,7 +2,7 @@
 
 ### Weather Data Analysis
 
-[![image](/imgs/clouds.png)](weatherindex.html)
+[![image](/imgs/clouds.png)](/sky/index.html)
 
 
 
@@ -10,7 +10,7 @@
 
 ### UFO Sighting Analysis
 
-![image](/imgs/alien.png)
+[![image](/imgs/alien.png)](/ufo/index.html)
 
 
 
